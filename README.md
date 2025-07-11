@@ -1,12 +1,29 @@
-# React + Vite
+# ToBadd Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the **ToBadd** website — a bold, experimental, and interactive web platform developed by **Tobacco Addict Studios**. This site showcases creative digital content, community interaction, and stylized UI elements in a responsive and minimalist layout.
 
-Currently, two official plugins are available:
+## 🔧 Built With
+- HTML / CSS / JS
+- Sidebar navigation system
+- Modular page structure
+- Single `style.css` for clean, maintainable styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Domains
+- [tobadd.com](https://tobadd.com)
+- [tobaccoaddictstudios.com](https://tobaccoaddictstudios.com)
 
-## Expanding the ESLint configuration
+## 📁 Structure
+- `index.html` – Homepage with dynamic sidebar
+- `about.html` – About the studio
+- `forums.html` – Community interaction space
+- `style.css` – Centralized styling
+- `/assets` – Icons, logos, and media files
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 Coming Soon
+- Interactive forum features
+- User account system
+- Post creation tools
+
+---
+
+For suggestions, improvements, or issues, feel free to open a pull request or submit an issue.
