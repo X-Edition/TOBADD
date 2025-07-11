@@ -1,6 +1,6 @@
-# ToBadd Website
+# TOBADD™ Website
 
-Welcome to the official repository for the **ToBadd** website — a bold, experimental, and interactive web platform developed by **Tobacco Addict Studios**. This site showcases creative digital content, community interaction, and stylized UI elements in a responsive and minimalist layout.
+Welcome to the official repository for the **TOBADD™** website — a bold, experimental, and interactive web platform developed by **Tobacco Addict Studios™**. This site showcases creative digital content, community interaction, and stylized UI elements in a responsive and minimalist layout.
 
 ## 🔧 Built With
 - HTML / CSS / JS
