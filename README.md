@@ -4,20 +4,12 @@ Welcome to the official repository for the **TOBADD™** website — a bold, exp
 
 ## 🔧 Built With
 - HTML / CSS / JS
-- Sidebar navigation system
 - Modular page structure
 - Single `style.css` for clean, maintainable styling
 
 ## 🚀 Live Domains
 - [tobadd.com](https://tobadd.com)
 - [tobaccoaddictstudios.com](https://tobaccoaddictstudios.com)
-
-## 📁 Structure
-- `index.html` – Homepage with dynamic sidebar
-- `about.html` – About the studio
-- `forums.html` – Community interaction space
-- `style.css` – Centralized styling
-- `/assets` – Icons, logos, and media files
 
 ## 🧪 Coming Soon
 - Interactive forum features
