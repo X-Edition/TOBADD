@@ -1,4 +1,4 @@
-# TOBADD™ Website
+# TOBADD™ Website 🚭
 
 Welcome to the official repository for the **TOBADD™** website — a bold, experimental, and interactive web platform developed by **Tobacco Addict Studios™**. This site showcases creative digital content, community interaction, and stylized UI elements in a responsive and minimalist layout.
 
@@ -11,7 +11,7 @@ Welcome to the official repository for the **TOBADD™** website — a bold, exp
 - [tobadd.com](https://tobadd.com)
 - [tobaccoaddictstudios.com](https://tobaccoaddictstudios.com)
 
-## 🧪 Coming Soon
+## ⚙️ Coming Soon
 - Interactive forum features
 - User account system
 - Post creation tools
