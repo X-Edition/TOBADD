@@ -3,7 +3,7 @@
 
 git add .
 git commit -m "v2"
-git pull origin main --rebase
+git pull origin gh-pages --rebase
 git push
 
 npm run build
