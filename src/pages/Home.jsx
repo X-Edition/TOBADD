@@ -23,6 +23,7 @@ function Home() {
       { title: "Spn0g bob", link: "#" },
       { title: "Spn0g bob", link: "#" },
       { title: "Spn0g bob", link: "#" },
+      { title: "TEST!!!!!!!!!!!!!!!!!", link: "#" },
     ];
   
     return (
