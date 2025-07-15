@@ -1,6 +1,13 @@
-/* Reset + Base */
-body,
-html {
+/* ───────────────────────────────
+   Reset + Base
+─────────────────────────────── */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -8,13 +15,23 @@ html {
     color: #222;
 }
 
-/* Layout */
+/* ───────────────────────────────
+   Layout Wrapper
+─────────────────────────────── */
 .app {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+/* ───────────────────────────────
+   Header
+─────────────────────────────── */
 .header {
     display: flex;
     align-items: center;
@@ -38,7 +55,9 @@ html {
     font-weight: bold;
 }
 
-/* Sidebar */
+/* ───────────────────────────────
+   Sidebar
+─────────────────────────────── */
 .sidebar {
     position: fixed;
     top: 0;
@@ -81,13 +100,17 @@ html {
     font-weight: bold;
 }
 
-/* Dimmed background when sidebar open */
+/* ───────────────────────────────
+   Sidebar Overlay Effect
+─────────────────────────────── */
 .dimmed {
     filter: brightness(0.7);
     pointer-events: none;
 }
 
-/* Home Page Grid */
+/* ───────────────────────────────
+   Home Page Grid
+─────────────────────────────── */
 .home {
     padding: 2rem;
 }
@@ -100,24 +123,43 @@ html {
 
 .card {
     display: block;
-    background: #fafafa;
+    position: relative;
+    background-size: cover;
+    background-position: center;
     border: 2px solid #ddd;
-    padding: 2rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #222;
     border-radius: 8px;
+    padding: 1rem;
+    aspect-ratio: 4 / 3;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Static Pages */
+.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.card-large {
+    grid-row: span 2;
+}
+
+/* ───────────────────────────────
+   Static Pages (About, Forums)
+─────────────────────────────── */
 .about-page,
 .forums-page {
     padding: 2rem;
@@ -128,4 +170,46 @@ html {
 .about-page h2,
 .forums-page h2 {
     margin-top: 0;
+}
+
+/* ───────────────────────────────
+   Footer
+─────────────────────────────── */
+.footer {
+    background-color: #111;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.footer-separator {
+    color: #999;
 }

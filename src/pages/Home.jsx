@@ -1,42 +1,51 @@
+import Card from "../components/Card";
+
 function Home() {
-    const cards = [
-      { title: "Wolf_Rising05 Simulator", link: "#" },
-      { title: "Aliens VS Robots", link: "#" },
-      { title: "Taki Madness", link: "#" },
-      { title: "Ben Destroys City Simulator", link: "#" },
-      { title: "DO NOT TOUCH!", link: "#" },
-      { title: "Doodle Racers", link: "#" },
-      { title: "Dorito Survival™", link: "#" },
-      { title: "LittleBigCity 2", link: "#" },
-      { title: "Beware of Ronald McDonald [HORROR]", link: "#" },
-      { title: "Car Game (Beta)", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "Spn0g bob", link: "#" },
-      { title: "TEST!!!!!!!!!!!!!!!!!", link: "#" },
-    ];
-  
-    return (
-      <div className="home">
-        <div className="grid">
-          {cards.map((card, idx) => (
-            <a key={idx} href={card.link} className="card">
-              {card.title}
-            </a>
-          ))}
-        </div>
+  const cards = [
+    {
+      title: "Wolf_Rising05 Simulator",
+      link: "#",
+      thumbnail: "/thumbnails/wolf.png",
+      large: true,
+    },
+    {
+      title: "Aliens VS Robots",
+      link: "#",
+      thumbnail: "/thumbnails/aliens.png",
+    },
+    {
+      title: "Taki Madness",
+      link: "#",
+      thumbnail: "/thumbnails/taki.png",
+    },
+    {
+      title: "Ben Destroys City Simulator",
+      link: "#",
+      thumbnail: "/thumbnails/ben.png",
+    },
+    {
+      title: "DO NOT TOUCH!",
+      link: "#",
+      thumbnail: "/thumbnails/dnt.png",
+    },
+    {
+      title: "TEST!!!!!!!!!!!!!!!!!",
+      link: "#",
+      thumbnail: "/thumbnails/test.png",
+      large: true,
+    },
+    // Add more as needed
+  ];
+
+  return (
+    <div className="home">
+      <div className="grid">
+        {cards.map((card, idx) => (
+          <Card key={idx} {...card} />
+        ))}
       </div>
-    );
-  }
-  
-  export default Home;  
+    </div>
+  );
+}
+
+export default Home;
