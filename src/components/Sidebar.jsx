@@ -9,6 +9,9 @@ function Sidebar({ open, setOpen }) {
       <nav>
         <ul>
           <li>
+            <Link to="/" onClick={() => setOpen(false)}>Home</Link>
+          </li>
+          <li>
             <Link to="/about" onClick={() => setOpen(false)}>About</Link>
           </li>
           <li>
